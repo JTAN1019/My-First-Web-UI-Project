@@ -19,7 +19,7 @@ WebUI.click(findTestObject('Homepage/Page_JupiterPrime/input__agree'))
 
 WebUI.click(findTestObject('Homepage/Page_JupiterPrime/button_Log In'))
 
-WebUI.verifyElementPresent(findTestObject('Homepage/Page_JupiterPrime/span_Hi Test'), 0)
+WebUI.waitForElementPresent(findTestObject('Homepage/Page_JupiterPrime/span_Hi Test'), 0)
 
 String expectedUsername = 'Hi Test'
 
