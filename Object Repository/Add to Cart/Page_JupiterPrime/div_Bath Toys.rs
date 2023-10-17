@@ -1,0 +1,99 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<WebElementEntity>
+   <description></description>
+   <name>div_Bath Toys</name>
+   <tag></tag>
+   <elementGuidId>270f2ff2-10a2-4499-9c11-1f79745734f1</elementGuidId>
+   <selectorCollection>
+      <entry>
+         <key>XPATH</key>
+         <value>//table[@id='cart-items']/tbody/tr[2]/td[2]/div</value>
+      </entry>
+      <entry>
+         <key>CSS</key>
+         <value></value>
+      </entry>
+   </selectorCollection>
+   <selectorMethod>XPATH</selectorMethod>
+   <useRalativeImagePath>true</useRalativeImagePath>
+   <webElementProperties>
+      <isSelected>false</isSelected>
+      <matchCondition>equals</matchCondition>
+      <name>tag</name>
+      <type>Main</type>
+      <value>div</value>
+      <webElementGuid>b9644ea1-5ba9-448c-b48a-481ce7dda7bb</webElementGuid>
+   </webElementProperties>
+   <webElementProperties>
+      <isSelected>false</isSelected>
+      <matchCondition>equals</matchCondition>
+      <name>class</name>
+      <type>Main</type>
+      <value>flex flex-row justify-left</value>
+      <webElementGuid>7fa92755-fa52-48d8-8696-d6ecfa7703ce</webElementGuid>
+   </webElementProperties>
+   <webElementProperties>
+      <isSelected>true</isSelected>
+      <matchCondition>equals</matchCondition>
+      <name>text</name>
+      <type>Main</type>
+      <value>Bath Toys</value>
+      <webElementGuid>7e326409-2164-446d-ad19-aa2ca454cee0</webElementGuid>
+   </webElementProperties>
+   <webElementProperties>
+      <isSelected>false</isSelected>
+      <matchCondition>equals</matchCondition>
+      <name>xpath</name>
+      <type>Main</type>
+      <value>id(&quot;cart-items&quot;)/tbody[1]/tr[2]/td[@class=&quot;px-2 py-1 md:px-6 md:py-3 text-left lg:text-lg&quot;]/div[@class=&quot;flex flex-row justify-left&quot;]</value>
+      <webElementGuid>7cbd6c0d-9491-40dd-a349-ba3999fcf81b</webElementGuid>
+   </webElementProperties>
+   <webElementXpaths>
+      <isSelected>true</isSelected>
+      <matchCondition>equals</matchCondition>
+      <name>xpath:idRelative</name>
+      <type>Main</type>
+      <value>//table[@id='cart-items']/tbody/tr[2]/td[2]/div</value>
+      <webElementGuid>303b1873-d22a-4aab-8ed5-25a44b518daa</webElementGuid>
+   </webElementXpaths>
+   <webElementXpaths>
+      <isSelected>false</isSelected>
+      <matchCondition>equals</matchCondition>
+      <name>xpath:neighbor</name>
+      <type>Main</type>
+      <value>(.//*[normalize-space(text()) and normalize-space(.)='$10.00'])[2]/following::div[3]</value>
+      <webElementGuid>deb798e1-a7bf-4e3b-aa44-604429039ca0</webElementGuid>
+   </webElementXpaths>
+   <webElementXpaths>
+      <isSelected>false</isSelected>
+      <matchCondition>equals</matchCondition>
+      <name>xpath:neighbor</name>
+      <type>Main</type>
+      <value>(.//*[normalize-space(text()) and normalize-space(.)='$10.00'])[1]/following::div[3]</value>
+      <webElementGuid>1e1016cc-7d8d-4c22-a66d-fccb0f453142</webElementGuid>
+   </webElementXpaths>
+   <webElementXpaths>
+      <isSelected>false</isSelected>
+      <matchCondition>equals</matchCondition>
+      <name>xpath:neighbor</name>
+      <type>Main</type>
+      <value>(.//*[normalize-space(text()) and normalize-space(.)='$8.00'])[1]/preceding::div[2]</value>
+      <webElementGuid>e91d7afe-722e-46ad-b49b-06c1d0759a74</webElementGuid>
+   </webElementXpaths>
+   <webElementXpaths>
+      <isSelected>false</isSelected>
+      <matchCondition>equals</matchCondition>
+      <name>xpath:position</name>
+      <type>Main</type>
+      <value>//tr[2]/td[2]/div</value>
+      <webElementGuid>65c37a25-cffe-4efe-984b-a6240d2dad6f</webElementGuid>
+   </webElementXpaths>
+   <webElementXpaths>
+      <isSelected>false</isSelected>
+      <matchCondition>equals</matchCondition>
+      <name>xpath:customAttributes</name>
+      <type>Main</type>
+      <value>//div[(text() = 'Bath Toys' or . = 'Bath Toys')]</value>
+      <webElementGuid>1a7432d2-1670-4d04-9b0f-688ebaff34b0</webElementGuid>
+   </webElementXpaths>
+</WebElementEntity>

@@ -1,0 +1,99 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<WebElementEntity>
+   <description></description>
+   <name>div_Piggybank</name>
+   <tag></tag>
+   <elementGuidId>ef00e5d4-dab5-4e91-9d54-f13a4fa4dd3f</elementGuidId>
+   <selectorCollection>
+      <entry>
+         <key>XPATH</key>
+         <value>//table[@id='cart-items']/tbody/tr/td[2]/div</value>
+      </entry>
+      <entry>
+         <key>CSS</key>
+         <value>div.flex.flex-row.justify-left</value>
+      </entry>
+   </selectorCollection>
+   <selectorMethod>XPATH</selectorMethod>
+   <useRalativeImagePath>true</useRalativeImagePath>
+   <webElementProperties>
+      <isSelected>false</isSelected>
+      <matchCondition>equals</matchCondition>
+      <name>tag</name>
+      <type>Main</type>
+      <value>div</value>
+      <webElementGuid>5d374aa8-6540-48be-9e81-82de20203bce</webElementGuid>
+   </webElementProperties>
+   <webElementProperties>
+      <isSelected>false</isSelected>
+      <matchCondition>equals</matchCondition>
+      <name>class</name>
+      <type>Main</type>
+      <value>flex flex-row justify-left</value>
+      <webElementGuid>70322fb9-723b-4b82-bc4c-f754106f11b4</webElementGuid>
+   </webElementProperties>
+   <webElementProperties>
+      <isSelected>true</isSelected>
+      <matchCondition>equals</matchCondition>
+      <name>text</name>
+      <type>Main</type>
+      <value>Piggybank</value>
+      <webElementGuid>cf9e671a-0957-4002-9329-c0114ce7dc8b</webElementGuid>
+   </webElementProperties>
+   <webElementProperties>
+      <isSelected>false</isSelected>
+      <matchCondition>equals</matchCondition>
+      <name>xpath</name>
+      <type>Main</type>
+      <value>id(&quot;cart-items&quot;)/tbody[1]/tr[1]/td[@class=&quot;px-2 py-1 md:px-6 md:py-3 text-left lg:text-lg&quot;]/div[@class=&quot;flex flex-row justify-left&quot;]</value>
+      <webElementGuid>9cf72986-f11a-4838-9a87-c16a6b0542be</webElementGuid>
+   </webElementProperties>
+   <webElementXpaths>
+      <isSelected>true</isSelected>
+      <matchCondition>equals</matchCondition>
+      <name>xpath:idRelative</name>
+      <type>Main</type>
+      <value>//table[@id='cart-items']/tbody/tr/td[2]/div</value>
+      <webElementGuid>a486cf75-1b13-42a3-8856-63151b28c9e8</webElementGuid>
+   </webElementXpaths>
+   <webElementXpaths>
+      <isSelected>false</isSelected>
+      <matchCondition>equals</matchCondition>
+      <name>xpath:neighbor</name>
+      <type>Main</type>
+      <value>(.//*[normalize-space(text()) and normalize-space(.)='Actions'])[1]/following::div[3]</value>
+      <webElementGuid>8aa9fc0e-35c9-4c21-96be-201fa1a666b2</webElementGuid>
+   </webElementXpaths>
+   <webElementXpaths>
+      <isSelected>false</isSelected>
+      <matchCondition>equals</matchCondition>
+      <name>xpath:neighbor</name>
+      <type>Main</type>
+      <value>(.//*[normalize-space(text()) and normalize-space(.)='Subtotal'])[1]/following::div[3]</value>
+      <webElementGuid>745da4a6-15ca-4b7a-a35c-24983a139f16</webElementGuid>
+   </webElementXpaths>
+   <webElementXpaths>
+      <isSelected>false</isSelected>
+      <matchCondition>equals</matchCondition>
+      <name>xpath:neighbor</name>
+      <type>Main</type>
+      <value>(.//*[normalize-space(text()) and normalize-space(.)='$10.00'])[1]/preceding::div[2]</value>
+      <webElementGuid>7103aea7-d74e-4f2f-ad5a-d44b083a6b21</webElementGuid>
+   </webElementXpaths>
+   <webElementXpaths>
+      <isSelected>false</isSelected>
+      <matchCondition>equals</matchCondition>
+      <name>xpath:position</name>
+      <type>Main</type>
+      <value>//td[2]/div</value>
+      <webElementGuid>7cc087b3-b434-4770-abe7-0e1ba9cdf717</webElementGuid>
+   </webElementXpaths>
+   <webElementXpaths>
+      <isSelected>false</isSelected>
+      <matchCondition>equals</matchCondition>
+      <name>xpath:customAttributes</name>
+      <type>Main</type>
+      <value>//div[(text() = 'Piggybank' or . = 'Piggybank')]</value>
+      <webElementGuid>23af850d-b20b-444e-aeee-426a888130ee</webElementGuid>
+   </webElementXpaths>
+</WebElementEntity>

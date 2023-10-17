@@ -1,0 +1,91 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<WebElementEntity>
+   <description></description>
+   <name>a_My Cart</name>
+   <tag></tag>
+   <elementGuidId>15c4acbd-f0f5-4eb9-a77f-014c7348e15b</elementGuidId>
+   <selectorCollection>
+      <entry>
+         <key>XPATH</key>
+         <value>//button[@id='my-cart-button']/a</value>
+      </entry>
+      <entry>
+         <key>CSS</key>
+         <value>#my-cart-button > a</value>
+      </entry>
+   </selectorCollection>
+   <selectorMethod>XPATH</selectorMethod>
+   <useRalativeImagePath>true</useRalativeImagePath>
+   <webElementProperties>
+      <isSelected>false</isSelected>
+      <matchCondition>equals</matchCondition>
+      <name>tag</name>
+      <type>Main</type>
+      <value>a</value>
+      <webElementGuid>16e4082a-06e5-44a8-bb3c-a395499dbe7e</webElementGuid>
+   </webElementProperties>
+   <webElementProperties>
+      <isSelected>true</isSelected>
+      <matchCondition>equals</matchCondition>
+      <name>href</name>
+      <type>Main</type>
+      <value>/cart</value>
+      <webElementGuid>32e9b785-31e9-4e1d-8ff4-ce2558c43c10</webElementGuid>
+   </webElementProperties>
+   <webElementProperties>
+      <isSelected>true</isSelected>
+      <matchCondition>equals</matchCondition>
+      <name>text</name>
+      <type>Main</type>
+      <value>My Cart→</value>
+      <webElementGuid>bec2caab-2ec6-46db-bff1-90864a91d7fb</webElementGuid>
+   </webElementProperties>
+   <webElementProperties>
+      <isSelected>false</isSelected>
+      <matchCondition>equals</matchCondition>
+      <name>xpath</name>
+      <type>Main</type>
+      <value>id(&quot;my-cart-button&quot;)/a[1]</value>
+      <webElementGuid>b3ce76fd-e9ec-4670-acee-51f2bb78d0cc</webElementGuid>
+   </webElementProperties>
+   <webElementXpaths>
+      <isSelected>true</isSelected>
+      <matchCondition>equals</matchCondition>
+      <name>xpath:idRelative</name>
+      <type>Main</type>
+      <value>//button[@id='my-cart-button']/a</value>
+      <webElementGuid>b4abe44e-ff2c-49c1-9fb5-322fc3ccba80</webElementGuid>
+   </webElementXpaths>
+   <webElementXpaths>
+      <isSelected>false</isSelected>
+      <matchCondition>equals</matchCondition>
+      <name>xpath:neighbor</name>
+      <type>Main</type>
+      <value>//*/text()[normalize-space(.)='My Cart']/parent::*</value>
+      <webElementGuid>5728ed57-d784-407f-aed1-4a3c1c59d034</webElementGuid>
+   </webElementXpaths>
+   <webElementXpaths>
+      <isSelected>false</isSelected>
+      <matchCondition>equals</matchCondition>
+      <name>xpath:href</name>
+      <type>Main</type>
+      <value>(//a[contains(@href, '/cart')])[2]</value>
+      <webElementGuid>8a3207ee-c184-4c7a-9347-b4cb8f7f16d1</webElementGuid>
+   </webElementXpaths>
+   <webElementXpaths>
+      <isSelected>false</isSelected>
+      <matchCondition>equals</matchCondition>
+      <name>xpath:position</name>
+      <type>Main</type>
+      <value>//button/a</value>
+      <webElementGuid>55c2daa0-6813-485c-a5e6-cf1851b2dd94</webElementGuid>
+   </webElementXpaths>
+   <webElementXpaths>
+      <isSelected>false</isSelected>
+      <matchCondition>equals</matchCondition>
+      <name>xpath:customAttributes</name>
+      <type>Main</type>
+      <value>//a[@href = '/cart' and (text() = 'My Cart→' or . = 'My Cart→')]</value>
+      <webElementGuid>591fd9c2-904d-4c5c-acf2-2fed618540f4</webElementGuid>
+   </webElementXpaths>
+</WebElementEntity>
