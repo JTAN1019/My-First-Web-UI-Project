@@ -6,14 +6,12 @@
    <elementGuidId>9758ddf5-54d3-4ced-a390-b7a9ade2c894</elementGuidId>
    <selectorCollection>
       <entry>
-         <key>XPATH</key>
-         <value>//*[@id=&quot;login-greeting&quot;]/text()[2]
-
-</value>
-      </entry>
-      <entry>
          <key>CSS</key>
          <value>#login-greeting</value>
+      </entry>
+      <entry>
+         <key>XPATH</key>
+         <value>//span[@id='login-greeting']</value>
       </entry>
    </selectorCollection>
    <selectorMethod>XPATH</selectorMethod>

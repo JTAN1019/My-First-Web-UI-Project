@@ -6,12 +6,12 @@
    <elementGuidId>48a1a12f-8358-450c-904e-20570f4150ab</elementGuidId>
    <selectorCollection>
       <entry>
-         <key>XPATH</key>
-         <value>//button[@id='start-shopping-button']/a</value>
-      </entry>
-      <entry>
          <key>CSS</key>
          <value>#start-shopping-button > a</value>
+      </entry>
+      <entry>
+         <key>XPATH</key>
+         <value>(.//*[normalize-space(text()) and normalize-space(.)='Login'])[1]/following::a[2]</value>
       </entry>
    </selectorCollection>
    <selectorMethod>XPATH</selectorMethod>
