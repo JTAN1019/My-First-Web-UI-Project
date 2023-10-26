@@ -23,5 +23,7 @@ WebUI.navigateToUrl('http://jupiterprime-react-dev.s3-website.us-east-2.amazonaw
 
 WebUI.verifyElementPresent(findTestObject('Homepage/Page_JupiterPrime/a_Start Shopping'), 0)
 
+WebUI.takeFullPageScreenshotAsCheckpoint('Jupiter Prime')
+
 WebUI.closeBrowser()
 
