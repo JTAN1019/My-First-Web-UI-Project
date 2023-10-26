@@ -41,6 +41,8 @@ WebUI.click(findTestObject('Object Repository/Add to Cart/Page_JupiterPrime/img_
 
 WebUI.click(findTestObject('Object Repository/Add to Cart/Page_JupiterPrime/img_remove_item2'))
 
+WebUI.takeScreenshotAsCheckpoint('Empty Cart')
+
 WebUI.verifyElementPresent(findTestObject('Add to Cart/Page_JupiterPrime/div_Your cart is empty'), 0)
 
 WebUI.closeBrowser()

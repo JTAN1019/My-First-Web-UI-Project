@@ -38,12 +38,16 @@ WebUI.verifyElementPresent(findTestObject('Homepage/Page_JupiterPrime/span_Hi Te
 
 WebUI.click(findTestObject('Homepage/Page_JupiterPrime/button_Log Out'))
 
+WebUI.takeScreenshotAsCheckpoint('Logout dialog box')
+
 WebUI.verifyElementPresent(findTestObject('Homepage/Page_JupiterPrime/div_Are you sure that you want to logoutCancelYes'), 
     0)
 
 WebUI.click(findTestObject('Homepage/Page_JupiterPrime/button_Yes'))
 
 WebUI.verifyElementPresent(findTestObject('Homepage/Page_JupiterPrime/button_Login'), 0)
+
+WebUI.takeScreenshotAsCheckpoint('After logout')
 
 WebUI.closeBrowser()
 

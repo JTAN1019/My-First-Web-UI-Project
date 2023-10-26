@@ -23,15 +23,21 @@ WebUI.navigateToUrl('http://jupiterprime-react-dev.s3-website.us-east-2.amazonaw
 
 WebUI.click(findTestObject('Object Repository/Add to Cart/Page_JupiterPrime/button_Start Shopping'))
 
+WebUI.takeScreenshotAsCheckpoint('Shop Page')
+
 WebUI.click(findTestObject('Object Repository/Add to Cart/Page_JupiterPrime/img_add_PiggyBank'))
 
 WebUI.setText(findTestObject('Object Repository/Add to Cart/Page_JupiterPrime/input_Contact_search-bar'), 'bath toys')
 
 WebUI.click(findTestObject('Object Repository/Add to Cart/Page_JupiterPrime/img_searchButton'))
 
+WebUI.takeScreenshotAsCheckpoint('Search item ')
+
 WebUI.click(findTestObject('Object Repository/Add to Cart/Page_JupiterPrime/img_add_BathToys'))
 
 WebUI.click(findTestObject('Object Repository/Add to Cart/Page_JupiterPrime/a_My Cart'))
+
+WebUI.takeScreenshotAsCheckpoint('My Cart')
 
 WebUI.verifyElementPresent(findTestObject('Add to Cart/Page_JupiterPrime/div_Piggybank'), 0)
 

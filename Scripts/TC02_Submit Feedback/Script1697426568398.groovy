@@ -23,6 +23,8 @@ WebUI.navigateToUrl('http://jupiterprime-react-dev.s3-website.us-east-2.amazonaw
 
 WebUI.click(findTestObject('Homepage/Page_JupiterPrime/a_Contact'))
 
+WebUI.takeScreenshotAsCheckpoint('Submit Feedback Page')
+
 WebUI.verifyElementPresent(findTestObject('Homepage/Page_JupiterPrime/div_We welcome your feedback - tell it how it is'), 
     0)
 
@@ -33,6 +35,8 @@ WebUI.setText(findTestObject('Homepage/Page_JupiterPrime/input_Surname_surname')
 WebUI.setText(findTestObject('Homepage/Page_JupiterPrime/input__email'), 'jtan@planittesting.com')
 
 WebUI.setText(findTestObject('Homepage/Page_JupiterPrime/textarea_Test'), 'Test')
+
+WebUI.takeScreenshotAsCheckpoint('Feedback page input')
 
 WebUI.click(findTestObject('Homepage/Page_JupiterPrime/button_Submit'))
 
